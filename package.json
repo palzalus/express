@@ -1,0 +1,31 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "NodeJs Express framework course project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palzalus/express.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "framework"
+  ],
+  "author": "Pascal Meers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palzalus/express/issues"
+  },
+  "homepage": "https://github.com/palzalus/express#readme",
+  "dependencies": {
+      "body-parser" : "*",
+      "express"     : "*",
+      "jade"        : "*",
+      "nodemailer"  : "*",
+      "pug"         : "*"
+  }
+}
